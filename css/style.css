@@ -1,0 +1,99 @@
+:root{
+    --clr-neon: rgb(255, 0, 157);
+    --clr-neon-white: rgb(250, 145, 210);
+    --clr-neon-tra: rgba(250, 145, 210,0.5);
+}
+
+body{
+    background-color: #000;
+}
+
+h2{
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+}
+
+#n{
+    font: caption;
+    font-size: 50px;
+    color: var(--clr-neon);
+    text-shadow: 
+        0 0 7px hsl(0 0% 100%/0.5),
+        0 0 25px var(--clr-neon);
+}
+
+#img{
+    margin-top: 5%;
+    width: 27%;
+    height: 130px;
+    transition: 1s;
+    background-size: auto;
+}
+
+#divPrincipal{
+    position: relative;
+    width: auto;
+    height: auto;
+
+}
+
+#textoPrincipal{
+    position: relative;
+    left: 10px;
+    font: caption;
+    font-size: 50px;
+    color: var(--clr-neon);
+    text-shadow: 
+        0 0 7px hsl(0 0% 100%/0.5),
+        0 0 25px var(--clr-neon);
+}
+
+#contents{
+    position: relative;
+    width: 100%;
+    height: auto;
+    bottom: 70px;
+    text-align: right;
+}
+
+#btnNeon{
+    position: relative;
+    top: 17px;
+    right: 2%;
+    margin-left: 13px;
+    background-color: #00000000;
+    width: 100px;
+    height: 30px;
+    border: var(--clr-neon) 3px solid;
+    border-radius: 4px;
+    color: var(--clr-neon);
+    font:icon;
+    box-shadow: 0 0 10px var(--clr-neon),
+                0 0 15px var(--clr-neon);
+}
+
+#btnNeon:hover{
+    cursor: pointer;
+    color: var(--clr-neon);
+    background-color: var(--clr-neon);
+    color: #000;
+    box-shadow: 0 0 35px var(--clr-neon),
+                0 0 45px var(--clr-neon);
+}
+
+#area{
+    position: relative;
+    top: 100px;
+    border: var(--clr-neon) 2px solid;
+    border-radius: 10px;
+    width: 70%;
+    height: 150%;
+    text-align: center;
+    color: var(--clr-neon);
+    color: #000;
+    box-shadow: 0 0 35px var(--clr-neon),
+                0 0 45px var(--clr-neon);
+}

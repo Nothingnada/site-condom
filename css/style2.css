@@ -1,0 +1,150 @@
+
+
+#divs{
+    position: relative;
+    width: 99%;
+    height: auto;
+    top: 5px;
+    border: var(--clr-neon) 2px solid;
+    border-radius: 5px;
+}
+
+#divs:hover{
+    cursor: pointer;
+    color: var(--clr-neon);
+    background-color: var(--clr-neon);
+    color: #000;
+    box-shadow: 0 0 35px var(--clr-neon),
+                0 0 45px var(--clr-neon);
+}
+
+#imgs{
+    position: relative;
+    height: 205px;
+    top: 10px;
+    left: 15px;
+    
+}
+
+h2{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+
+
+.buy{
+    background-color: var(--clr-neon);
+    border: var(--clr-neon) 1px solid;
+    width: auto;
+    height: 25px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.buy:hover{
+    cursor: pointer;
+    box-shadow: 0 0 35px var(--clr-neon),
+                0 0 45px var(--clr-neon);
+    width: auto;
+    height: 25px;
+    border-radius: 5px;
+    
+}
+
+#tex{
+    position: absolute;
+    text-align: center;
+    bottom: 130px;
+    left: 15%;
+}
+
+
+.modal{
+    z-index: 1;
+    position: fixed;
+    top:0;
+    left:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0.25s ease-in-out , opacity 0.25s ease-in-out, transform 0.25s ease-in-out;   
+}
+
+.modal-content{
+    box-shadow: 0 0 100px var(--clr-neon),
+                0 0 105px var(--clr-neon);
+    background-color: var(--clr-neon-white);
+    padding: 16px 24px;    
+    width: 384px;
+    border-radius: 0.5rem;
+}
+
+.show-modal{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+     
+}
+
+.modal2{
+    z-index: 1;
+    position: fixed;
+    top:0;
+    left:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0.25s ease-in-out , opacity 0.25s ease-in-out, transform 0.25s ease-in-out;   
+}
+
+.modal-content2{
+    box-shadow: 0 0 100px var(--clr-neon),
+                0 0 105px var(--clr-neon);
+    background-color: var(--clr-neon-white);
+    padding: 16px 24px;    
+    width: 384px;
+    border-radius: 0.5rem;
+}
+
+.show-modal2{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+     
+}
+
+.ed {
+    box-shadow:
+       0 0 50px #fff,
+       20px 0 80px #f0f,
+       -20px 0 80px #0ff,
+       20px 0 300px #f0f,
+       -20px 0 300px #0ff,
+      0 0 50px #fff,
+      -10px 0 80px #f0f,
+      10px 0 80px #0ff;
+  }
+
+#img-modal{
+    z-index: 1;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+}

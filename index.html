@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>condom</title>
+    
+</head>
+<body>
+    <div id="divPrincipal">
+        <span id="textoPrincipal">Condoms</span>
+        
+    </div>
+    <div id="contents">
+        <button id="btnNeon" value="sobre.html" onclick="entra(value)">about Us</button>
+        <button id="btnNeon" value="produto.html" onclick="entra(value)">Products</button>
+
+    </div>
+    
+    <center>
+        <h1 id="n">Sponsors</h1>
+    <img id="img">
+</center>
+
+    <script>
+        var i=0;
+        function entra(value){
+            window.location.href=value;
+        }
+        setInterval(() => {
+            i=i+1;
+            
+            document.getElementById("img").style.backgroundImage="url('imgs/"+i+".png')";
+            if(i==5){
+                i=0;
+            }
+        }, 5000)
+    </script>
+</body>
+</html>
